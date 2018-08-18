@@ -7,6 +7,7 @@ spring:
         git:
           uri: https://github.com/Chaithra-Shenoy/ConfigurationProperty.git
           force-pull: true
+      profile: development
   profiles:
     active:
     - development
